@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,9 +35,249 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
 
 .boxed {
-    border: 1px;
-    background-color: #FDE2E4;
+  border: 1px;
+  background-color: #FDE2E4;
 }
+
+:root {
+  --black: 
+rgba(0, 0, 0, 0.812);
+  --black-2: 
+rgba(0, 0, 0, 1);
+  --serenade: 
+rgba(255, 241, 230, 1);
+
+  --font-size-xs: 14px;
+  --font-size-s: 16px;
+  --font-size-m: 38px;
+
+  --font-family-roboto: "Roboto";
+} 
+
+.landing-page {
+  align-items: center;
+  background-color: var(--serenade);
+  display: flex;
+  flex-direction: column;
+  height: 736px;
+  padding: 25px 0;
+  width: 414px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 11.0px;
+  min-width: 353px;
+  position: relative;
+}
+
+.image-22 {
+  height: 83px;
+  width: 73px;
+}
+
+.o-n-e-a-p-p-l-e {
+  height: 158px;
+  letter-spacing: 0;
+  margin-left: 3.0px;
+  margin-top: 10px;
+  width: 343px;
+}
+
+.span1roboto-thin-black-38px {
+  text-decoration: underline;
+}
+
+.overlap-group {
+  align-self: flex-start;
+  height: 49px;
+  margin-left: 1px;
+  position: relative;
+  width: 346px;
+}
+
+.text-1 {
+  height: 26px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  width: 346px;
+}
+
+.text {
+  height: 26px;
+  left: 42px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 230px;
+}
+
+.flex-row-1 {
+  align-items: flex-bottom;
+  display: flex;
+  margin-left: 3.0px;
+  margin-top: 45px;
+  min-width: 343px;
+}
+
+.group-3 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 160px;
+}
+
+.overlap-group2 {
+  height: 70px;
+  position: relative;
+  width: 158px;
+}
+
+.rectangle-3 {
+  background-color: 
+#0e1e28;
+  border-radius: 29px;
+  height: 70px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.comearvalign-text-middle {
+  color: 
+#ffffff;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 100px;
+  left: 0;
+  letter-spacing: 0;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  top: 1000;
+  width: 158px;
+}
+
+.overlap-group1 {
+  height: 70px;
+  margin-left: 23px;
+  position: relative;
+  width: 160px;
+}
+
+.group-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.rectangle-3-1 {
+  background-color: var(--serenade);
+  border-radius: 29px;
+  height: 70px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.sobre-nsvalign-text-middle {
+  color: 
+#707070;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 70px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  margin-top: 20px;
+  top: 0;
+  width: 158px;
+}
+
+.line-1 {
+  height: 1px;
+  left: 35px;
+  position: absolute;
+  top: 52px;
+  width: 86px;
+}
+
+.rectangle-40 {
+  background-color: 
+#c4c4c4;
+  height: 199px;
+  margin-top: 38px;
+  width: 414px;
+}
+
+.menu-hamburger {
+  align-items: center;
+  display: flex;
+  height: 55px;
+  margin-left: 225px;
+  padding: 0 6px;
+  width: 55px;
+}
+
+.menu-hamburger-1 {
+  height: 29px;
+  width: 43px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,500,100");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roboto-thin-black-38px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-medium-black-14px {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+
