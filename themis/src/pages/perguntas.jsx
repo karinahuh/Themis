@@ -9,9 +9,14 @@ function perguntas() {
         <p>
           Perguntas<br></br>
         </p>
-        <b>Escreva sua pergunta:</b><br></br>
-        <input type="text" />
-        <br></br>
+        <form>
+            <label>
+            <b>Escreva sua pergunta:</b><br></br> 
+              <input type="text" name="pergunta" />
+            </label>
+            <br></br>
+            <input type="submit" value="Enviar" />
+          </form>
       </header>
       </div>
   );
