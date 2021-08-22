@@ -1,13 +1,13 @@
 //import logo from './logo.svg';
 import React from 'react';
 
-function termos_juridicos() {
+function perguntas_frequentes() {
   return (
     <div className="App">
       <header className="App-header">
         <img src="themis.png"/>
         <p>
-          Termos Jurídicos<br></br>
+          Perguntas Frequentes<br></br>
         </p>
         <div class="boxed">
             <b>Advogado Digital</b><br></br>
@@ -33,4 +33,4 @@ function termos_juridicos() {
   );
 }
 
-export default termos_juridicos;
+export default perguntas_frequentes;

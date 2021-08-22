@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import React from 'react';
 
-function Advogada_Inicial() {
+function advogada_inicial() {
   return (
     <div className="App">
       <header className="App-header">
@@ -9,13 +9,16 @@ function Advogada_Inicial() {
         <p>
           Olá Dr.Luana<br></br>
 
-          <button>Conversas</button><br></br>
-          <button>Responder Perguntas</button><br></br>
-          <button>Planos</button>
+          <button>Conversas<br></br>
+          Converse com sua cliente</button><br></br>
+          <button>Responder Perguntas<br></br>
+          Responda as perguntas feitas</button><br></br>
+          <button>Planos<br></br>
+          Planos de Assinatura</button>
         </p>
       </header>
       </div>
   );
 }
 
-export default Advogada_Inicial;
+export default advogada_inicial;
