@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function login() {
   return (
@@ -19,14 +20,16 @@ function login() {
                 <input type="password" />
             </label>
                 <div>
-                    <button type="submit">Entrar</button>
+                  <Link to="/Advogada_Inicial"><button type="submit">Entrar</button></Link>
                 </div>
             </form>
             <button>Esqueceu sua senha?</button><br></br>
         </p>
         <p>
             Ainda não tem uma conta?<br></br>
-            <button>Criar Conta</button><br></br>
+            <Link to="/cadastro">
+              <button>Criar Conta</button>
+            </Link>
         </p>
       </header>
     </div>

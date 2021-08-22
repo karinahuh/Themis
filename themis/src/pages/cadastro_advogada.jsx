@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function cadastro_advogada() {
   return (
     <div className="App">
@@ -41,7 +41,9 @@ function cadastro_advogada() {
               <input type="password" name="confirmarSenha" />
             </label>
             <br></br>
-            <input type="submit" value="Cadastrar" />
+            <Link to="/Advogada_Inicial">
+              <input type="submit" value="Cadastrar" />
+            </Link>
           </form>
         </p>
       </header>

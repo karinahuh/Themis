@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function index() {
   return (
@@ -29,6 +30,7 @@ function index() {
           comear="Começar"
           sobreNs ="Sobre Nós"
         />
+
       </header>
       </div>
          
@@ -61,7 +63,8 @@ function LandingPage(props) {
           <div className="group-3">
             <div className="overlap-group2">
               <div className="rectangle-3">
-                <div className="comearvalign-text-middle">{comear}</div>
+                <Link to="/login"><div className="comearvalign-text-middle">{comear}</div></Link>
+                
               </div>
               
             </div>

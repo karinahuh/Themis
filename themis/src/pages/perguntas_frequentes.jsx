@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function perguntas_frequentes() {
   return (
     <div className="App">

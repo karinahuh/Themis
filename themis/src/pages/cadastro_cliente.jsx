@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function cadastro_cliente() {
   return (
@@ -26,7 +27,9 @@ function cadastro_cliente() {
               <input type="password" name="confirmarSenha" />
             </label>
             <br></br>
-            <input type="submit" value="Cadastrar" />
+            <Link to ="/cliente_inicial">
+              <input type="submit" value="Cadastrar" />
+            </Link>
           </form>
         </p>
       </header>
