@@ -37,3 +37,7 @@
   }
 }
 
+.boxed {
+    border: 1px;
+    background-color: #FDE2E4;
+}
