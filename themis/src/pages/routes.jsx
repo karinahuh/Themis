@@ -8,6 +8,10 @@ import Login from './login'
 import AdvogadaInicial from './Advogada_Inicial'
 import respostas from './respostas';
 import Chat from './Chat';
+import ClienteIncial from './cliente_inicial';
+import TermosJuridicos from './termos_juridicos';
+import Advogadas from './advogadas';
+import Perguntas from './perguntas';
 
 function Routes() {
     return(
@@ -20,6 +24,10 @@ function Routes() {
             <Route path="/Advogada_Inicial" exact component={AdvogadaInicial} />
             <Route path="/respostas" exact component={respostas} />
             <Route path="/Chat" exact component={Chat} />
+            <Route path="/cliente_inicial" exact component={ClienteIncial} />
+            <Route path="/termos_juridicos" exact component={TermosJuridicos} />
+            <Route path="/advogadas" exact component={Advogadas} />
+            <Route path="/perguntas" exact component={Perguntas} />
         </BrowserRouter>
     );
 }
